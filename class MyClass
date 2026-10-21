@@ -1,0 +1,1 @@
+class MyClass: def greet(self): print("Привет от меня!") obj = MyClass() obj.greet()
