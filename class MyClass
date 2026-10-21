@@ -1,1 +1,8 @@
 class MyClass: def greet(self): print("Привет от меня!") obj = MyClass() obj.greet()
+
+class MyClass:
+    def __init__(self):
+        self.name = "Новый атрибут" # Новое изменение
+
+    def greet(self):
+        print(f"Привет от {self.name}!")
